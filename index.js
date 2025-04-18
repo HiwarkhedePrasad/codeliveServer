@@ -15,16 +15,16 @@ const execPromise = util.promisify(exec);
 const ACTIONS = {
   JOIN: "join",
   JOINED: "joined",
-  FIRST_JOIN: "first-join",
+  FIRST_JOIN: "first_join",
   DISCONNECTED: "disconnected",
-  CODE_CHANGE: "code-change",
-  SYNC_CODE: "sync-code",
-  FILE_CHANGE: "file-change",
-  FILE_CREATED: "file-created",
-  FILE_DELETED: "file-deleted",
-  CURSOR_CHANGE: "cursor-change",
-  EXECUTE_CODE: "execute-code",
-  EXECUTION_RESULT: "execution-result",
+  CODE_CHANGE: "code_change",
+  SYNC_CODE: "sync_code",
+  FILE_CHANGE: "file_change",
+  FILE_CREATED: "file_created",
+  FILE_DELETED: "file_deleted",
+  CURSOR_CHANGE: "cursor_change",
+  EXECUTE_CODE: "execute_code",
+  EXECUTION_RESULT: "execution_result",
 };
 
 // Setup temp directory for file execution
